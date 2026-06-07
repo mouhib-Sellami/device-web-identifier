@@ -1,0 +1,25 @@
+{
+  "name": "device-web-identifier",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mouhib-Sellami/device-web-identifier.git"
+  },
+  "keywords": [
+    "device",
+    "web",
+    "identification",
+    "fingerprint"
+  ],
+  "author": "Mouhib Sellami",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mouhib-Sellami/device-web-identifier/issues"
+  },
+  "homepage": "https://github.com/mouhib-Sellami/device-web-identifier#readme",
+  "description": ""
+}
