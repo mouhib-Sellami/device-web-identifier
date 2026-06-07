@@ -1,9 +1,18 @@
 {
   "name": "device-web-identifier",
   "version": "0.1.0",
-  "main": "index.js",
+  "description": "Browser device fingerprinting and identification utility",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsup && tsc",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit",
+    "test": "npx serve test"
   },
   "repository": {
     "type": "git",
@@ -21,5 +30,13 @@
     "url": "https://github.com/mouhib-Sellami/device-web-identifier/issues"
   },
   "homepage": "https://github.com/mouhib-Sellami/device-web-identifier#readme",
-  "description": ""
+  "devDependencies": {
+    "@types/node": "^25.9.2",
+    "tsup": "^8.5.1",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "@fingerprintjs/fingerprintjs": "^5.2.0",
+    "ua-parser-js": "^2.0.10"
+  }
 }
