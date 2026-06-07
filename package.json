@@ -12,7 +12,7 @@
     "build": "tsup && tsc",
     "dev": "tsup --watch",
     "typecheck": "tsc --noEmit",
-    "test": "npx serve test"
+    "test": "npx serve ."
   },
   "repository": {
     "type": "git",
