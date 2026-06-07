@@ -1,8 +1,33 @@
-/src
-/node_modules
+# Source — consumers only need dist/
+src/
+test/
 
-.env
-.DS_Store
-
-tsconfig.json
+# Config files
 tsup.config.ts
+tsconfig.json
+tsconfig.dts.json
+
+# Dev environment
+node_modules/
+.env
+.env.*
+
+# Editor and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Git
+.git/
+.gitignore
+
+# TypeScript cache
+*.tsbuildinfo
